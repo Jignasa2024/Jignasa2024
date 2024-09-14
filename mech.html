@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="GPREC Logo.png" type="image/png" style="width: 10%; height: 10%;">
+    <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+      />
+    <title>
+     TEDxGPREC
+    </title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="home.css">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("Dw_Yl9PRJYqe0hWEj");
+   })();
+</script>
+</head>
+<style type="text/css">
+    .card{
+        background-color: black;
+    }
+    .card-text1{
+        color:white;
+        
+        padding: 10px;
+    }
+    .card-title{
+        color: white;
+        text-align: center;
+    }
+    .image-wrapper{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .aboutimg{
+      background-image: url('Ted.png');
+      background-repeat: no-repeat;
+      background-blend-mode: lighten;
+    }
+    .Navbar1 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border: 3px solid rgba(138,43,226,0.4); /* Border around the navigation bar */
+    border-radius: 10px; /* Rounded corners */
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(138,43,226,0.4); /* Adds shadow to make it stand out */
+}
+
+
+    .navbar-nav .nav-item .nav-link {
+    color: blueviolet;
+    font-family: revert-layer;
+    border: 2px solid rgba(138, 43, 226, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    box-shadow: 0 4px 10px rgba(13, 11, 15, 0.4); /* Adds shadow to make it stand out */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    transform: scale(1.1); /* Pop-out effect */
+    box-shadow: 0px 4px 15px rgba(138, 43, 226, 0.5); /* Shadow for enhanced visual effect */
+    border: 2px solid rgba(138, 43, 226, 1); /* Enhances border */
+}
+    
+</style>
+<body>
+    <div style="background-color: white;">
+      
+        <nav class="navbar navbar-expand-lg Nav Navbar1"  style="background-color: white; padding-bottom: 0px; padding-top:0px;   width: 100%; height: 12%;" >
+            <img src="GPREC Logo.png" style="width: 220px; height: 90px; padding-left: 5px; padding-bottom: 5px;" class="tedxgprec">
+         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-left" id="collapsibleNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"  style="color:  rgba(138, 43, 226, 1);font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 5px;">Home</a>
+        </li>
+         <!-- <li class="nav-item">
+            <a class="nav-link" href="sponsorsjig.html"  style=" color: rgba(138, 43, 226, 1);font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 5px;">Schedule</a>
+        </li> -->
+        <li class="nav-item">
+            <a class="nav-link" href="EventMainPage.html" style="color: rgba(138, 43, 226, 1); font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 5px;">Events</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" href="team.html"style="color: bluevoilet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 5px;" >Team</a>
+    </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 5px;" >Contact</a>    
+        </li>
+
+            
+        </ul>
+        <img src="rubyjublee-removebg-preview.png" style="width: 100px; height: 90px; padding-left: 5px; padding-bottom: 5px;background-color:white;" class="tedxgprec">
+
+     </div>
+    </nav>
+    <br>
+    <h1 style=" color: blueviolet; text-align: center" data-aos="zoom-in-up" data-aos-duration="1700">Events Conducted by Mechanical Department</h1>
+    <div class="area">
+
+       <div style="background-color: white; padding-top: 2%;"><br>
+        <div class="row" style="margin: 0px;">
+          <!-- Content first -->
+          <div class="col-lg-8">
+
+            <br>
+            <h3 style="color: black;" data-aos="zoom-in-up" data-aos-duration="2000">"Paper - Presentation"</h3>
+            <p style="margin-right: 3%; color: black;" data-aos="zoom-in-up" data-aos-duration="2000">  
+              This event provides a perfect platform for the students to come forward and be the leaders of future by exhibiting their creative, technical and research skills as well as their knowledge. Students will be presenting a topic on any emerging concepts, recent technological trends and development, which will help them in honing skills for their technical future. </p>
+<br>
+          </div>
+          <!-- Image second -->
+          <div class="col-lg-4">
+            <img src="Jignasaposter.jpg" alt="theme" style="width: 300px; height: 300px; margin-left: auto; margin-right: auto; display: block; margin-bottom: 2%; border-radius: 4%; box-shadow: 0px 4px 16px rgba(138, 43, 226, 1);" data-aos="zoom-in-up" data-aos-duration="2000" />
+          </div>
+        </div>
+      </div>
+      <table style="border: 3px solid blueviolet; border-collapse: collapse; width: 100%; max-width: 900px; margin: auto; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);" data-aos="zoom-in-up" data-aos-duration="1700">
+        <tr style="background-color: lightblue;">
+          <th style="border: 1px solid blueviolet;padding:10px;">Date</th>
+          <th style="border: 1px solid blueviolet;padding:10px;">Time</th>
+          <th style="border: 1px solid blueviolet;padding:10px;">Venue</th>
+          <th style="border: 1px solid blueviolet; padding: 10px;">Team size</th>
+          <th style="border: 1px solid blueviolet; padding: 10px;">Fee for the event</th>
+          <th style="border: 1px solid blueviolet; padding: 10px;">Contact (for queries)</th>w
+        </tr>
+        <tr style="background-color: white;">
+          <td style="border: 1px solid blueviolet; padding:10px; ">24th Oct 2024</td>
+          <td style="border: 1px solid blueviolet; padding:10px; "> 10.00 AM to 1.00 PM</td>
+          <td style="border: 1px solid blueviolet; padding:10px; "> ME Seminar Hall</td>
+          <td style="border: 1px solid blueviolet; padding: 10px;">2 members per Team</td>
+          <td style="border: 1px solid blueviolet; padding: 10px;">Rs. 200 per Team</td>
+          <td style="border: 1px solid blueviolet; padding: 10px;">Ms. M. Rohini - 8919466759</td>
+
+          <!-- Merged cell with increased padding for better presentation -->
+          <td  class="nav-item"> <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 10px;" >Register</a>  
+            <br>  
+        </td>
+        </tr>
+      </table>
+        
+ </div>
+ <br>
+ <hr style="border: 5px solid blueviolet; width: 100%; margin: auto;"/>
+
+
+    <div class="area">
+
+         <div style="background-color: white; padding-top: 2%;"><br>
+           <div class="row" style="margin: 0px;">
+              <div class="col-lg-4">
+                <img src="Jignasaposter.jpg" alt="theme" style="width: 300px; height: 300px; margin-left: auto; margin-right: auto; display: block; margin-bottom: 2%; border-radius: 4%; box-shadow: 0px 4px 16px rgba(138, 43, 226, 1);" data-aos="zoom-in-up" data-aos-duration="2000" />
+              </div>
+              <div class="col-lg-8" >
+                <br>
+                <h3 style="color: black;" data-aos="zoom-in-up" data-aos-duration="2000">Poster Presentation</h3>
+                
+                <p style="margin-right: 3%; color: black;" data-aos="zoom-in-up" data-aos-duration="2000">  
+                  The aim of poster presentation competition is to bring out the creative expression of students and to gauge their knowledge and awareness of various trends in Mechanical Engineering. A poster presentation for students is a visual and interactive method of presenting research, projects, or innovative concepts in a concise and informative format. 
+                  </p>
+                  <br>               
+              </div>
+           </div>
+         </div>
+         <br>
+         <table style="border: 3px solid blueviolet; border-collapse: collapse; width: 100%; max-width: 900px; margin: auto; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);" data-aos="zoom-in-up" data-aos-duration="1700">
+          <tr style="background-color: lightblue;">
+            <th style="border: 1px solid blueviolet;padding:10px;">Date</th>
+            <th style="border: 1px solid blueviolet;padding:10px;">Time</th>
+            <th style="border: 1px solid blueviolet;padding:10px;">Venue</th>
+            <th style="border: 1px solid blueviolet; padding: 10px;">Team size</th>
+            <th style="border: 1px solid blueviolet; padding: 10px;">Fee for the event</th>
+            <th style="border: 1px solid blueviolet; padding: 10px;">Contact (for queries)</th>w
+          </tr>
+          <tr style="background-color: white;">
+            <td style="border: 1px solid blueviolet; padding:10px; ">24th Oct 2024</td>
+            <td style="border: 1px solid blueviolet; padding:10px; "> 02.00 PM to 04.00 PM</td>
+            <td style="border: 1px solid blueviolet; padding:10px; "> ME Seminar Hall</td>
+            <td style="border: 1px solid blueviolet; padding: 10px;">2 members per team</td>
+            <td style="border: 1px solid blueviolet; padding: 10px;">Rs. 200 per Team</td>
+            <td style="border: 1px solid blueviolet; padding: 10px;">P .Venkat Puneeth Datta - 8919824925 </td>
+  
+            <!-- Merged cell with increased padding for better presentation -->
+            <td  class="nav-item"> <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 10px;" >Register</a>  
+              <br>  
+          </td>
+          </tr>
+        </table>       
+   </div>
+   <br>
+   <hr style="border: 5px solid blueviolet; width: 100%; margin: auto;"/>
+
+   <div class="area">
+
+    <div style="background-color: white; padding-top: 2%;"><br>
+     <div class="row" style="margin: 0px;">
+       <!-- Content first -->
+       <div class="col-lg-8">
+         <br>
+         <h3 style="color: black;" data-aos="zoom-in-up" data-aos-duration="2000">Project Expo</h3>
+         <p style="margin-right: 3%; color: black;" data-aos="zoom-in-up" data-aos-duration="2000">   
+          Information is a source of learning. However, unless it is organized, processed and available in right format it is hard to sustain. You can make a model or a prototype that is relevant to the Mechanical Engineering, can exhibit and explain about it.  
+          <br>
+       </div>
+       <!-- Image second -->
+       <div class="col-lg-4">
+        <img src="Jignasaposter.jpg" alt="theme" style="width: 300px; height: 300px; margin-left: auto; margin-right: auto; display: block; margin-bottom: 2%; border-radius: 4%; box-shadow: 0px 4px 16px rgba(138, 43, 226, 1);" data-aos="zoom-in-up" data-aos-duration="2000" />
+      </div>
+     </div>
+   </div>
+   <br>
+   <table style="border: 3px solid blueviolet; border-collapse: collapse; width: 100%; max-width: 900px; margin: auto; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);" data-aos="zoom-in-up" data-aos-duration="1700">
+    <tr style="background-color: lightblue;">
+      <th style="border: 1px solid blueviolet;padding:10px;">Date</th>
+      <th style="border: 1px solid blueviolet;padding:10px;">Time</th>
+      <th style="border: 1px solid blueviolet;padding:10px;">Venue</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Team size</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Fee for the event</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Contact (for queries)</th>w
+    </tr>
+    <tr style="background-color: white;">
+      <td style="border: 1px solid blueviolet; padding:10px; ">25th Oct 2024</td>
+      <td style="border: 1px solid blueviolet; padding:10px; "> 10.00 AM to 12.00 PM</td>
+      <td style="border: 1px solid blueviolet; padding:10px; "> ME Class Room-4</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">5 members per Team</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">Rs. 200 per Team</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">M. Sai Jyothi - 8019925218 </td>
+
+      <!-- Merged cell with increased padding for better presentation -->
+      <td  class="nav-item"> <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 10px;" >Register</a>  
+        <br>  
+    </td>
+    </tr>
+  </table>  
+</div>
+<br>
+<hr style="border: 5px solid blueviolet; width: 100%; margin: auto;"/>
+<div class="area">
+
+  <div style="background-color: white; padding-top: 2%;"><br>
+    <div class="row" style="margin: 0px;">
+       <div class="col-lg-4">
+        <img src="Jignasaposter.jpg" alt="theme" style="width: 300px; height: 300px; margin-left: auto; margin-right: auto; display: block; margin-bottom: 2%; border-radius: 4%; box-shadow: 0px 4px 16px rgba(138, 43, 226, 1);" data-aos="zoom-in-up" data-aos-duration="2000" />
+      </div>
+       <div class="col-lg-8" >
+         <br>
+         <h3 style="color: black;" data-aos="zoom-in-up" data-aos-duration="2000">"CAD modeling"</h3>
+         
+         <p style="margin-right: 3%; color: black;" data-aos="zoom-in-up" data-aos-duration="2000">     
+          Model Mania is a modeling challenge where students modeling skills are measured on both accuracy and time. We will provide a Mechanical Engineering related pdf drawings. You need to model same drawing on the CATIA/CREO modeling software.
+          </p>          <br>        
+       </div>
+    </div>
+  </div>
+  <br>
+  <table style="border: 3px solid blueviolet; border-collapse: collapse; width: 100%; max-width: 900px; margin: auto; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);" data-aos="zoom-in-up" data-aos-duration="1700">
+    <tr style="background-color: lightblue;">
+      <th style="border: 1px solid blueviolet;padding:10px;">Date</th>
+      <th style="border: 1px solid blueviolet;padding:10px;">Time</th>
+      <th style="border: 1px solid blueviolet;padding:10px;">Venue</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Team size</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Fee for the event</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Contact (for queries)</th>w
+    </tr>
+    <tr style="background-color: white;">
+      <td style="border: 1px solid blueviolet; padding:10px; ">24th Oct 2024</td>
+      <td style="border: 1px solid blueviolet; padding:10px; "> 10.00 AM to 1.00 PM</td>
+      <td style="border: 1px solid blueviolet; padding:10px; "> ME Seminar Hall</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">1 member</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">Rs. 50 per Member</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">A. Dinesh Kumar - 7981412146 </td>
+
+      <!-- Merged cell with increased padding for better presentation -->
+      <td  class="nav-item"> <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 10px;" >Register</a>  
+        <br>  
+    </td>
+    </tr>
+  </table>
+</div>
+  <br>
+  <hr style="border: 5px solid blueviolet; width: 100%; margin: auto;"/>
+  <div class="area">
+
+    <div style="background-color: white; padding-top: 2%;"><br>
+     <div class="row" style="margin: 0px;">
+       <!-- Content first -->
+       <div class="col-lg-8">
+         <br>
+         <h3 style="color: black;" data-aos="zoom-in-up" data-aos-duration="2000">Technical Quiz</h3>
+         <p style="margin-right: 3%; color: black;" data-aos="zoom-in-up" data-aos-duration="2000">  
+          A technical quiz is designed to assess their understanding of core mechanical concepts, problem-solving abilities, and practical applications. The quiz typically covers a wide range of topics related to mechanical engineering principles and practices.
+          <br>         
+       </div>
+       <!-- Image second -->
+       <div class="col-lg-4">
+        <img src="Jignasaposter.jpg" alt="theme" style="width: 300px; height: 300px; margin-left: auto; margin-right: auto; display: block; margin-bottom: 2%; border-radius: 4%; box-shadow: 0px 4px 16px rgba(138, 43, 226, 1);" data-aos="zoom-in-up" data-aos-duration="2000" />
+      </div>
+     </div>
+   </div>
+   <br>
+   <table style="border: 3px solid blueviolet; border-collapse: collapse; width: 100%; max-width: 900px; margin: auto; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);" data-aos="zoom-in-up" data-aos-duration="1700">
+    <tr style="background-color: lightblue;">
+      <th style="border: 1px solid blueviolet;padding:10px;">Date</th>
+      <th style="border: 1px solid blueviolet;padding:10px;">Time</th>
+      <th style="border: 1px solid blueviolet;padding:10px;">Venue</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Team size</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Fee for the event</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Contact (for queries)</th>w
+    </tr>
+    <tr style="background-color: white;">
+      <td style="border: 1px solid blueviolet; padding:10px; ">25th Oct 2024</td>
+      <td style="border: 1px solid blueviolet; padding:10px; "> 9.00 AM to 10.00 AM</td>
+      <td style="border: 1px solid blueviolet; padding:10px; "> CAD lab/ ME Class Room</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">1 Member</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">50 per Team</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;"> S. Abdul Rahim - 6303080612 </td>
+
+      <!-- Merged cell with increased padding for better presentation -->
+      <td  class="nav-item"> <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 10px;" >Register</a>  
+        <br>  
+    </td>
+    </tr>
+  </table>  
+</div>
+
+<br>
+<hr style="border: 5px solid blueviolet; width: 100%; margin: auto;"/>
+  <div class="area">
+
+    <div style="background-color: white; padding-top: 2%;"><br>
+      <div class="row" style="margin: 0px;">
+         <div class="col-lg-4">
+          <img src="Jignasaposter.jpg" alt="theme" style="width: 300px; height: 300px; margin-left: auto; margin-right: auto; display: block; margin-bottom: 2%; border-radius: 4%; box-shadow: 0px 4px 16px rgba(138, 43, 226, 1);" data-aos="zoom-in-up" data-aos-duration="2000" />
+        </div>
+         <div class="col-lg-8" >
+           <br>
+           <h3 style="color: black;" data-aos="zoom-in-up" data-aos-duration="2000"> Best Out of Waste</h3>
+           
+           <p style="margin-right: 3%; color: black;" data-aos="zoom-in-up" data-aos-duration="2000">   
+            Best out of Waste refers to the creative process of transforming discarded materials, waste products, or unused items into useful, decorative, or functional objects. The concept emphasizes sustainability by promoting recycling, upcycling, and resource conservationt encourages people to look at waste not as garbage but as raw materials for new, innovative creations. </p> 
+
+            <br>          
+         </div>
+      </div>
+    </div>
+    <br>
+    <table style="border: 3px solid blueviolet; border-collapse: collapse; width: 100%; max-width: 900px; margin: auto; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);" data-aos="zoom-in-up" data-aos-duration="1700">
+      <tr style="background-color: lightblue;">
+        <th style="border: 1px solid blueviolet;padding:10px;">Date</th>
+        <th style="border: 1px solid blueviolet;padding:10px;">Time</th>
+        <th style="border: 1px solid blueviolet;padding:10px;">Venue</th>
+        <th style="border: 1px solid blueviolet; padding: 10px;">Team size</th>
+        <th style="border: 1px solid blueviolet; padding: 10px;">Fee for the event</th>
+        <th style="border: 1px solid blueviolet; padding: 10px;">Contact (for queries)</th>w
+      </tr>
+      <tr style="background-color: white;">
+        <td style="border: 1px solid blueviolet; padding:10px; ">24th Oct 2024</td>
+        <td style="border: 1px solid blueviolet; padding:10px; "> 3.00 PM to 4.00 PM</td>
+        <td style="border: 1px solid blueviolet; padding:10px; "> ME Class Room -5 </td>
+        <td style="border: 1px solid blueviolet; padding: 10px;">4 members per Team</td>
+        <td style="border: 1px solid blueviolet; padding: 10px;"> Rs. 150 per Team</td>
+        <td style="border: 1px solid blueviolet; padding: 10px;">G. Naga Anusha - 8688585005 </td>
+
+        <!-- Merged cell with increased padding for better presentation -->
+        <td  class="nav-item"> <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 10px;" >Register</a>  
+          <br>  
+      </td>
+      </tr>
+    </table>
+  </div>
+    <br>
+    <hr style="border: 5px solid blueviolet; width: 100%; margin: auto;"/>
+  
+ <br>
+ <br>
+ <br>
+ <br>          
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>   
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

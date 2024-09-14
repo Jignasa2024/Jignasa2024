@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="GPREC Logo.png" type="image/png" style="width: 10%; height: 10%;">
+    <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+      />
+    <title>
+     TEDxGPREC
+    </title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="home.css">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("Dw_Yl9PRJYqe0hWEj");
+   })();
+</script>
+
+<style type="text/css">
+body {
+  background-color: #000;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid white;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(75, 0, 130, 0.8); /* Darker shadow with more opacity */
+}
+
+.photo-card {
+  border-radius: 50%;
+  width: 150px; /* Decrease the width */
+  height: 150px; /* Decrease the height */
+  overflow: hidden;
+  margin: 10px auto; /* Adjust the margin */
+  position: relative;
+}
+
+.photo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-text {
+  text-align: center;
+  color: #fff;
+  margin-top: 10px; /* Add margin at the top */
+}
+
+.team-title {
+  text-align: center;
+  color: red;
+  font-size: 30px; /* Decrease the font size */
+  margin-bottom: 20px;
+}
+
+
+
+    
+  
+ 
+    .image-wrapper{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .aboutimg{
+      background-image: url('Ted.png');
+      background-repeat: no-repeat;
+      background-blend-mode: lighten;
+    }
+    .Navbar1 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border: 3px solid rgba(138,43,226,0.4); /* Border around the navigation bar */
+    border-radius: 10px; /* Rounded corners */
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(138,43,226,0.4); /* Adds shadow to make it stand out */
+}
+.navbar-nav .nav-item {
+    margin-right: 30px; /* Adjust the margin to control spacing */
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0; /* Remove the margin for the last item */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: blueviolet;
+    font-family: revert-layer;
+    border: 2px solid rgba(138, 43, 226, 0.5);
+    border-radius: 10px;
+    padding: 5px 10px; /* Add some horizontal padding */
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    box-shadow: 0 4px 10px rgba(13, 11, 15, 0.4); /* Adds shadow to make it stand out */
+}
+
+
+
+
+.navbar-nav .nav-item .nav-link:hover {
+    transform: scale(1.1); /* Pop-out effect */
+    box-shadow: 0px 4px 15px rgba(138, 43, 226, 0.5); /* Shadow for enhanced visual effect */
+    border: 2px solid rgba(138, 43, 226, 1); /* Enhances border */
+}
+
+
+    .center{
+        padding-top: 0%;
+       text-align: center;
+        margin-right: auto;
+    }
+
+
+</style>
+<body  style="background-color: white;">
+    <nav class="navbar navbar-expand-lg Nav Navbar1"  style="background-color: white; padding-bottom: 0px; padding-top:0px;  width: 100%; height: 12%;" >
+        <img src="GPREC Logo.png" style="width: 220px; height: 90px; padding-left: 5px;" class="tedxgprec">
+     <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse text-left" id="collapsibleNavbar">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"  style="color:  rgba(138, 43, 226, 1);font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 2); border-radius: 10px; padding: 5px;">Home</a>
+    </li>
+     <!-- <li class="nav-item">
+        <a class="nav-link" href="sponsorsjig.html"  style=" color: rgba(138, 43, 226, 1);font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 5px;">Schedule</a>
+    </li> -->
+    <li class="nav-item">
+        <a class="nav-link" href="EventMainPage.html" style="color: rgba(138, 43, 226, 1); font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 5px;">Events</a>
+    </li>
+  <li class="nav-item">
+    <a class="nav-link" href="team.html"style="color: bluevoilet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 5px;" >Team</a>
+</li>
+    <li class="nav-item">
+        <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 5px;" >Contact</a>    
+    </li>
+       
+        
+    </ul>
+    <img src="rubyjublee-removebg-preview.png" style="width: 100px; height: 90px; padding-left: 5px; padding-bottom: 5px;background-color:white;" class="tedxgprec">
+
+ </div>
+</nav>
+<div class="center">
+    <h1 style="color: blueviolet; font-size: 300%; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-top: 3%;">Faculty Coordinators</h1>
+  </div>
+
+  
+  <div data-aos="fade-up" data-aos-duration="2000">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div data-aos="fade-up">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="photo-card mx-auto rotate">
+                    <img src="Dr.Khayyum.jpg" alt="Photo">
+                  </div>
+                  <div class="card-text">
+                    <h5 style="color: black;" > Dr.P. Abdul Khayum </h5>
+                    <h5 style="color: black;" > Professor , ECE</h5>
+                    <h5 style="font-style: italic; color:  blueviolet">Convener</h5>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="photo-card mx-auto rotate">
+                    <img src="Harinath-Reddy.jpg" alt="Photo">
+                  </div>
+                  <div class="card-text">
+                    <h5 style="color: black;" > Dr. C. Harinatha Reddy</h5>
+                    <h5 style="color: black;" > Associate Professor, EEE</h5>
+                    <h5 style="font-style: italic; color:  blueviolet;">Co-Convener</h5>
+                  </div>
+                </div>
+          </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="center">
+      <h1 style="color: blueviolet; font-size: 300%; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-top: 3%;">Student Coordinators</h1>
+    </div>
+
+  <div data-aos="fade-up" data-aos-duration="2000">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div data-aos="fade-up">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="photo-card mx-auto">
+                  <img src="download.png" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="font-style: italic;color: #000;">Y. Narsimha</h5>
+                  <h5 style="font-style: italic; color:  blueviolet;">Chairman</h5>
+                  <h5 style ="color:#000"> VII - CE</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto">
+                  <img src="download.png" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="font-style: italic;color: #000;">M. Gandhi Prakash</h5>
+                  <h5 style="font-style: italic; color:  blueviolet;">Chairman</h5>
+                  <h5 style="color: black;"> VII - ME</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="download.png" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="font-style: italic;color: black;">U. Dheeraj Kumar</h5>
+                  <h5 style="font-style: italic; color:  blueviolet;">Secretary</h5>
+                  <h5 style="color:#000"> VII - ECE</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div data-aos="fade-up">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="photo-card mx-auto">
+                  <img src="girlimagee.jpeg" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style=" font-style: italic;color: #000;">V. Chandini </h5>
+                  <h5 style="font-style: italic; color:  blueviolet;">Member</h5>
+                  <h5 style="color: #000;"> V - CSE</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="girlimagee.jpeg" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: black;font-style: italic;">P. Chaitanya</h5>
+                  <h5 style="font-style: italic; color:  blueviolet;">Member</h5>
+                  <h5 style="color: #000;"> V - CE</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="girlimagee.jpeg" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: #000; font-style: italic;">K. Yegneswari </h5>
+                  <h5 style="font-style: italic; color:  blueviolet;">Member</h5>
+                  <h5 style="color: #000;" > V - ME</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="girlimagee.jpeg" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: #000; font-style: italic;">K. Ayesha Siddikha</h5>
+                  <h5 style="font-style: italic; color: blueviolet;">Member</h5>
+                  <h5> V - CSM</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="girlimagee.jpeg" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: #000;font-style: italic;">K. Surya Lakshmi</h5>
+                  <h5 style="font-style: italic; color: blueviolet;">Member</h5>
+                  <h5 style="color: #000;"> V - ECE </h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="girlimagee.jpeg" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: #000;font-style: italic;">M. Vishnurupa</h5>
+                  <h5 style="font-style: italic; color: blueviolet;">Member</h5>
+                  <h5 style="color: #000;"> V - EEE</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="download.png" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: #000; font-style: italic;">B. Tejeswara Reddy</h5>
+                  <h5 style="font-style: italic; color: blueviolet;">Member</h5>
+                  <h5 style="color: #000;"> III - CSE</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="girlimagee.jpeg" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: #000; font-style: italic;">K. Haritha</h5>
+                  <h5 style="font-style: italic; color: blueviolet;">Member</h5>
+                  <h5 style="color: #000;"> III - CSE</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="girlimagee.jpeg" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: #000; font-style: italic;">D. Pujitha</h5>
+                  <h5 style="font-style: italic; color: blueviolet;">Member</h5>
+                  <h5 style="color: #000;"> III - EEE</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="download.png" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: #000; font-style: italic;">B. Hari Rama Raju</h5>
+                  <h5 style="font-style: italic; color: blueviolet;">Member</h5>
+                  <h5 style="color: #000;"> III ECE</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="download.png" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: #000;font-style: italic;">P. Prashanth Narasimha</h5>
+                  <h5 style="font-style: italic; color: blueviolet;">Member</h5>
+                  <h5 style="color: #000;"> III - CSBS</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="download.png" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: black; font-style: italic;">K. Venkata Kishore</h5>
+                  <h5 style="font-style: italic; color: blueviolet;">Member</h5>
+                  <h5 style="color: #000;"> III - ME</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="girlimagee.jpeg" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: black;">B. Chandana</h5>
+                  <h5 style="font-style: italic; color: blueviolet">Member</h5>
+                  <h5 style="color: #000;"> III - CE</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="girlimagee.jpeg" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: black">S. Maheswari </h5>
+                  <h5 style="font-style: italic; color: blueviolet;">Member</h5>
+                  <h5 style="color: #000;"> III CSM</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="photo-card mx-auto rotate">
+                  <img src="download.png" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: #000; font-style: italic;">Kashi </h5>
+                  <h5 style="font-style: italic; color: blueviolet;">Member</h5>
+                  <h5 style="color: #000;"> VII - ECE</h5>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="photo-card mx-auto rotate">
+                  <img src="download.png" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: #000; font-style: italic;">T. Siddartha Sharma</h5>
+                  <h5 style="font-style: italic; color: blueviolet;">Member</h5>
+                  <h5 style="color: black;"> ECS </h5>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="photo-card mx-auto rotate">
+                  <img src="download.png" alt="Photo">
+                </div>
+                <div class="card-text">
+                  <h5 style="color: #000; font-style: italic;">C. Udaya Kiran</h5>
+                  <h5 style="font-style: italic; color: blueviolet;">Member</h5>
+                  <h5 style="color: black;"> EEE</h5>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+</body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();
+
+
+
+
+</script>

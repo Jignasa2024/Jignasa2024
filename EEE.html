@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="GPREC Logo.png" type="image/png" style="width: 10%; height: 10%;">
+    <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+      />
+    <title>
+     TEDxGPREC
+    </title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="home.css">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("Dw_Yl9PRJYqe0hWEj");
+   })();
+</script>
+</head>
+<style type="text/css">
+    .card{
+        background-color: black;
+    }
+    .card-text1{
+        color:white;
+        
+        padding: 10px;
+    }
+    .card-title{
+        color: white;
+        text-align: center;
+    }
+    .image-wrapper{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .aboutimg{
+      background-image: url('Ted.png');
+      background-repeat: no-repeat;
+      background-blend-mode: lighten;
+    }
+    .Navbar1 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border: 3px solid rgba(138,43,226,0.4); /* Border around the navigation bar */
+    border-radius: 10px; /* Rounded corners */
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(138,43,226,0.4); /* Adds shadow to make it stand out */
+}
+
+
+    .navbar-nav .nav-item .nav-link {
+    color: blueviolet;
+    font-family: revert-layer;
+    border: 2px solid rgba(138, 43, 226, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    box-shadow: 0 4px 10px rgba(13, 11, 15, 0.4); /* Adds shadow to make it stand out */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    transform: scale(1.1); /* Pop-out effect */
+    box-shadow: 0px 4px 15px rgba(138, 43, 226, 0.5); /* Shadow for enhanced visual effect */
+    border: 2px solid rgba(138, 43, 226, 1); /* Enhances border */
+}
+    
+</style>
+<body>
+    <div style="background-color: white;">
+      
+        <nav class="navbar navbar-expand-lg Nav Navbar1"  style="background-color: white; padding-bottom: 0px; padding-top:0px;   width: 100%; height: 12%;" >
+            <img src="GPREC Logo.png" style="width: 220px; height: 90px; padding-left: 5px; padding-bottom: 5px;" class="tedxgprec">
+         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-left" id="collapsibleNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"  style="color:  rgba(138, 43, 226, 1);font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 5px;">Home</a>
+        </li>
+         <!-- <li class="nav-item">
+            <a class="nav-link" href="sponsorsjig.html"  style=" color: rgba(138, 43, 226, 1);font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 5px;">Schedule</a>
+        </li> -->
+        <li class="nav-item">
+            <a class="nav-link" href="EventMainPage.html" style="color: rgba(138, 43, 226, 1); font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 5px;">Events</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" href="team.html"style="color: bluevoilet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 5px;" >Team</a>
+    </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 5px;" >Contact</a>    
+        </li>     
+        </ul>
+        <img src="rubyjublee-removebg-preview.png" style="width: 100px; height: 90px; padding-left: 5px; padding-bottom: 5px;background-color:white;" class="tedxgprec">
+
+     </div>
+    </nav>
+    <br>
+    <h1 style=" color: blueviolet; text-align: center" data-aos="zoom-in-up" data-aos-duration="1700">Events Conducted by Electrical and Electronics Department</h1>
+    <div class="area">
+
+       <div style="background-color: white; padding-top: 2%;"><br>
+        <div class="row" style="margin: 0px;">
+          <!-- Content first -->
+          <div class="col-lg-8">
+
+            <br>
+            <h3 style="color: black;" data-aos="zoom-in-up" data-aos-duration="2000">"Sankethika - Paper Presenatation"</h3>
+            <p style="margin-right: 3%; color: black;" data-aos="zoom-in-up" data-aos-duration="2000">   
+              Sankethika, the paper presentation event, offers a dynamic platform for students to showcase their research and ideas on Emerging Areas in Electrical Engineering. It’s an opportunity for participants to present innovative solutions that address the future challenges of the electrical engineering field. By participating, students will gain valuable feedback from industry experts, sharpen their presentation skills, and contribute to the evolving world of technology. This event invites passionate students to share their insights on a wide range of electrical engineering concepts.
+              </p>   
+<br>
+          </div>
+          <!-- Image second -->
+          <div class="col-lg-4">
+            <img src="Sankatika- Paper Presentation.png" alt="theme" style="width: 300px; height: 300px; margin-left: auto; margin-right: auto; display: block; margin-bottom: 2%; border-radius: 4%; box-shadow: 0px 4px 16px rgba(138, 43, 226, 1);" data-aos="zoom-in-up" data-aos-duration="2000" />
+          </div>
+        </div>
+      </div>
+      <table style="border: 3px solid blueviolet; border-collapse: collapse; width: 100%; max-width: 900px; margin: auto; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);" data-aos="zoom-in-up" data-aos-duration="1700">
+        <tr style="background-color: lightblue;">
+          <th style="border: 1px solid blueviolet;padding:10px;">Date</th>
+          <th style="border: 1px solid blueviolet;padding:10px;">Time</th>
+          <th style="border: 1px solid blueviolet;padding:10px;">Venue</th>
+          <th style="border: 1px solid blueviolet; padding: 10px;">Team size</th>
+          <th style="border: 1px solid blueviolet; padding: 10px;">Fee for the event</th>
+          <th style="border: 1px solid blueviolet; padding: 10px;">Contact (for queries)</th>w
+        </tr>
+        <tr style="background-color: white;">
+          <td style="border: 1px solid blueviolet; padding:10px; ">24th Oct 2024</td>
+          <td style="border: 1px solid blueviolet; padding:10px; "> 10.00 AM to 1.00 PM</td>
+          <td style="border: 1px solid blueviolet; padding:10px; "> EEE</td>
+          <td style="border: 1px solid blueviolet; padding: 10px;">2 Members</td>
+          <td style="border: 1px solid blueviolet; padding: 10px;">Rs.200 per team</td>
+          <td style="border: 1px solid blueviolet; padding: 10px;">D. Harika - 9885178019</td>
+
+          <!-- Merged cell with increased padding for better presentation -->
+          <td  class="nav-item"> <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 10px;" >Register</a>  
+            <br>  
+        </td>
+        </tr>
+      </table>
+        
+ </div>
+ <br>
+ <hr style="border: 5px solid blueviolet; width: 100%; margin: auto;"/>
+
+
+    <div class="area">
+
+         <div style="background-color: white; padding-top: 2%;"><br>
+           <div class="row" style="margin: 0px;">
+              <div class="col-lg-4">
+                <img src="Chitraka - posster presentation.jpg" alt="theme" style="width: 300px; height: 300px; margin-left: auto; margin-right: auto; display: block; margin-bottom: 2%; border-radius: 4%; box-shadow: 0px 4px 16px rgba(138, 43, 226, 1);" data-aos="zoom-in-up" data-aos-duration="2000" />
+              </div>
+              <div class="col-lg-8" >
+                <br>
+                <h3 style="color: black;" data-aos="zoom-in-up" data-aos-duration="2000">Chithraka - Poster Presentation</h3>
+                
+                <p style="margin-right: 3%; color: black;" data-aos="zoom-in-up" data-aos-duration="2000"> The poster session permits one-on-one (or one-on-few) interaction with interested conference-goers. The greatest value of the poster is when you are standing in front of it, and you should optimize for that. During other times, it can still convey information to passers-by.
+                  By introducing themselves and showcasing their brilliant ideas through posters, the participants piqued the audience's interest. This document gives a few pieces of advice about preparing and presenting a poster. They are also relevant to technical demonstrations, which have many similarities.
+                     
+              </div>
+           </div>
+         </div>
+         <br>
+         <table style="border: 3px solid blueviolet; border-collapse: collapse; width: 100%; max-width: 900px; margin: auto; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);" data-aos="zoom-in-up" data-aos-duration="1700">
+          <tr style="background-color: lightblue;">
+            <th style="border: 1px solid blueviolet;padding:10px;">Date</th>
+            <th style="border: 1px solid blueviolet;padding:10px;">Time</th>
+            <th style="border: 1px solid blueviolet;padding:10px;">Venue</th>
+            <th style="border: 1px solid blueviolet; padding: 10px;">Team size</th>
+            <th style="border: 1px solid blueviolet; padding: 10px;">Fee for the event</th>
+            <th style="border: 1px solid blueviolet; padding: 10px;">Contact (for queries)</th>w
+          </tr>
+          <tr style="background-color: white;">
+            <td style="border: 1px solid blueviolet; padding:10px; ">24th Oct 2024</td>
+            <td style="border: 1px solid blueviolet; padding:10px; "> 10.00 AM to 1.00 PM</td>
+            <td style="border: 1px solid blueviolet; padding:10px; "> EEE</td>
+            <td style="border: 1px solid blueviolet; padding: 10px;"> 2 Members</td>
+            <td style="border: 1px solid blueviolet; padding: 10px;">Rs. 200 per team </td>
+            <td style="border: 1px solid blueviolet; padding: 10px;">D.J.HUSSAIN BABA - 7337262800 </td>
+  
+            <!-- Merged cell with increased padding for better presentation -->
+            <td  class="nav-item"> <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 10px;" >Register</a>  
+              <br>  
+          </td>
+          </tr>
+        </table>       
+   </div>
+   <br>
+   <hr style="border: 5px solid blueviolet; width: 100%; margin: auto;"/>
+
+   <div class="area">
+
+    <div style="background-color: white; padding-top: 2%;"><br>
+     <div class="row" style="margin: 0px;">
+       <!-- Content first -->
+       <div class="col-lg-8">
+         <br>
+         <h3 style="color: black;" data-aos="zoom-in-up" data-aos-duration="2000">Anantha - Technical Quiz</h3>
+         <p style="margin-right: 3%; color: black;" data-aos="zoom-in-up" data-aos-duration="2000">     
+          "Anantha: The Ultimate Electrical Technical Quiz" is an exciting and intellectually stimulating event designed for Electrical Engineering. Participants will engage in a multi-round quiz competition, testing their knowledge in areas such as circuits, electrical machines, power systems, electronics, and recent advancements in electrical technology. The quiz will feature MCQs, problem-solving questions, and rapid-fire rounds, encouraging teamwork and quick thinking. It's an excellent opportunity for students to showcase their expertise, compete with peers, and enhance their understanding of key concepts while having fun!
+       </div>
+       <!-- Image second -->
+       <div class="col-lg-4">
+        <img src="anantha technical quiz.png" alt="theme" style="width: 300px; height: 300px; margin-left: auto; margin-right: auto; display: block; margin-bottom: 2%; border-radius: 4%; box-shadow: 0px 4px 16px rgba(138, 43, 226, 1);" data-aos="zoom-in-up" data-aos-duration="2000" />
+      </div>
+     </div>
+   </div>
+   <br>
+   <table style="border: 3px solid blueviolet; border-collapse: collapse; width: 100%; max-width: 900px; margin: auto; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);" data-aos="zoom-in-up" data-aos-duration="1700">
+    <tr style="background-color: lightblue;">
+      <th style="border: 1px solid blueviolet;padding:10px;">Date</th>
+      <th style="border: 1px solid blueviolet;padding:10px;">Time</th>
+      <th style="border: 1px solid blueviolet;padding:10px;">Venue</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Team size</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Fee for the event</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Contact (for queries)</th>w
+    </tr>
+    <tr style="background-color: white;">
+      <td style="border: 1px solid blueviolet; padding:10px; ">24th Oct 2024</td>
+      <td style="border: 1px solid blueviolet; padding:10px; "> 1.30 AM to 3.00 PM</td>
+      <td style="border: 1px solid blueviolet; padding:10px; "> EEE</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">3 Members per team</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">Rs.150 per Team</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">K. Sai Durgeswar - 7207154104</td>
+
+      <!-- Merged cell with increased padding for better presentation -->
+      <td  class="nav-item"> <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 10px;" >Register</a>  
+        <br>  
+    </td>
+    </tr>
+  </table>  
+</div>
+<br>
+<hr style="border: 5px solid blueviolet; width: 100%; margin: auto;"/>
+<div class="area">
+
+  <div style="background-color: white; padding-top: 2%;"><br>
+    <div class="row" style="margin: 0px;">
+       <div class="col-lg-4">
+        <img src="Medho Madhan.jpg" alt="theme" style="width: 300px; height: 300px; margin-left: auto; margin-right: auto; display: block; margin-bottom: 2%; border-radius: 4%; box-shadow: 0px 4px 16px rgba(138, 43, 226, 1);" data-aos="zoom-in-up" data-aos-duration="2000" />
+      </div>
+       <div class="col-lg-8" >
+         <br>
+         <h3 style="color: black;" data-aos="zoom-in-up" data-aos-duration="2000">"Medho Madhan - Electro Quest"</h3>
+         
+         <p style="margin-right: 3%; color: black;" data-aos="zoom-in-up" data-aos-duration="2000">     Kreative 2k24 is an exciting innovative idea contest where participants will work in teams to develop and present groundbreaking ideas on a given topic. Teams will prepare a PowerPoint presentation to showcase their concepts, with the option to build a prototype to further illustrate their innovation and strengthen their presentation. The event fosters creativity and practical thinking, encouraging participants to translate their ideas into feasible solutions". 
+          <br>        
+       </div>
+    </div>
+  </div>
+  <br>
+  <table style="border: 3px solid blueviolet; border-collapse: collapse; width: 100%; max-width: 900px; margin: auto; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);" data-aos="zoom-in-up" data-aos-duration="1700">
+    <tr style="background-color: lightblue;">
+      <th style="border: 1px solid blueviolet;padding:10px;">Date</th>
+      <th style="border: 1px solid blueviolet;padding:10px;">Time</th>
+      <th style="border: 1px solid blueviolet;padding:10px;">Venue</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Team size</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Fee for the event</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Contact (for queries)</th>w
+    </tr>
+    <tr style="background-color: white;">
+      <td style="border: 1px solid blueviolet; padding:10px; ">24th Oct 2024</td>
+      <td style="border: 1px solid blueviolet; padding:10px; "> 3.00PM to 4.30 PM</td>
+      <td style="border: 1px solid blueviolet; padding:10px; "> EEE</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">3 members per team</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">Rs. 100 per Team</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">S. Pradeep Reddy - 9290700901 </td>
+
+      <!-- Merged cell with increased padding for better presentation -->
+      <td  class="nav-item"> <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 10px;" >Register</a>  
+        <br>  
+    </td>
+    </tr>
+  </table>
+</div>
+  <br>
+  <hr style="border: 5px solid blueviolet; width: 100%; margin: auto;"/>
+  <div class="area">
+
+    <div style="background-color: white; padding-top: 2%;">
+     <div class="row" style="margin: 0px;">
+       <!-- Content first -->
+       <div class="col-lg-8">
+         <br>
+         <h3 style="color: black;" data-aos="zoom-in-up" data-aos-duration="2000">J.O.S.H 40</h3>
+         <p style="margin-right: 3%; color: black;" data-aos="zoom-in-up" data-aos-duration="2000">    Dive into a transformative experience with our game designed to enhance mind mapping and logical thinking. Challenge your cognitive abilities as you navigate complex scenarios that test your problem-solving skills and emotional intelligence. This game isn't just about strategy; it's about understanding yourself and others, harnessing your personality traits, and mastering emotional control. With each level, you'll refine your ability to think critically, manage emotions, and apply logical solutions, all while mapping out intricate pathways to success. Perfect for those looking to boost their mental acuity and emotional savvy, this game promises both a stimulating challenge and personal growth.
+
+          The game is about the mind mapping and logical thinking, personality capabilities and control along with your emotional intelligence
+          “FEEL THE JOSH”
+          
+       </div>
+       <!-- Image second -->
+       <div class="col-lg-4">
+        <img src="JOSH 40.png" alt="theme" style="width: 300px; height: 300px; margin-left: auto; margin-right: auto; display: block; margin-bottom: 2%; border-radius: 4%; box-shadow: 0px 4px 16px rgba(138, 43, 226, 1);" data-aos="zoom-in-up" data-aos-duration="2000" />
+      </div>
+     </div>
+   </div>
+   <br>
+   <table style="border: 3px solid blueviolet; border-collapse: collapse; width: 100%; max-width: 900px; margin: auto; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);" data-aos="zoom-in-up" data-aos-duration="1700">
+    <tr style="background-color: lightblue;">
+      <th style="border: 1px solid blueviolet;padding:10px;">Date</th>
+      <th style="border: 1px solid blueviolet;padding:10px;">Time</th>
+      <th style="border: 1px solid blueviolet;padding:10px;">Venue</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Team size</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Fee for the event</th>
+      <th style="border: 1px solid blueviolet; padding: 10px;">Contact (for queries)</th>w
+    </tr>
+    <tr style="background-color: white;">
+      <td style="border: 1px solid blueviolet; padding:10px; ">25th Oct 2024</td>
+      <td style="border: 1px solid blueviolet; padding:10px; "> 9.00 AM to 11.00 PM</td>
+      <td style="border: 1px solid blueviolet; padding:10px; "> EEE</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">3 members per team</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">Rs. 150(NON-IEEE) per Team, Rs. 100(IEEE)</td>
+      <td style="border: 1px solid blueviolet; padding: 10px;">A. Pavan Kumar</td>
+
+      <!-- Merged cell with increased padding for better presentation -->
+      <td  class="nav-item"> <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 10px;" >Register</a>  
+        <br>  
+    </td>
+    </tr>
+  </table> 
+</div>
+
+<br>
+<hr style="border: 5px solid blueviolet; width: 100%; margin: auto;"/>
+  <div class="area">
+
+    <div style="background-color: white; padding-top: 2%;"><br>
+      <div class="row" style="margin: 0px;">
+         <div class="col-lg-4">
+          <img src="Matsim Kalakaar.png" alt="theme" style="width: 300px; height: 300px; margin-left: auto; margin-right: auto; display: block; margin-bottom: 2%; border-radius: 4%; box-shadow: 0px 4px 16px rgba(138, 43, 226, 1);" data-aos="zoom-in-up" data-aos-duration="2000" />
+        </div>
+         <div class="col-lg-8" >
+           <br>
+           <h3 style="color: black;" data-aos="zoom-in-up" data-aos-duration="2000"> Matsim Innovator</h3>
+           
+           <p style="margin-right: 3%; color: black;" data-aos="zoom-in-up" data-aos-duration="2000">     "MatSim Innovator: The Ultimate Simulation Challenge" is an exciting and intellectually stimulating event designed for simulation enthusiasts. Participants will dive into a multiple  questions, testing their skills in areas such as scenario simulating the given circuit. The event will feature creative challenges, hands-on simulation tasks, and rapid-prototype rounds, encouraging teamwork, and quick decision-making. It's a fantastic opportunity for participants to showcase their expertise, collaborate with peers, and push the boundaries of simulation while having a great time!
+         </div>
+      </div>
+    </div>
+    <br>
+    <table style="border: 3px solid blueviolet; border-collapse: collapse; width: 100%; max-width: 900px; margin: auto; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);" data-aos="zoom-in-up" data-aos-duration="1700">
+      <tr style="background-color: lightblue;">
+        <th style="border: 1px solid blueviolet;padding:10px;">Date</th>
+        <th style="border: 1px solid blueviolet;padding:10px;">Time</th>
+        <th style="border: 1px solid blueviolet;padding:10px;">Venue</th>
+        <th style="border: 1px solid blueviolet; padding: 10px;">Team size</th>
+        <th style="border: 1px solid blueviolet; padding: 10px;">Fee for the event</th>
+        <th style="border: 1px solid blueviolet; padding: 10px;">Contact (for queries)</th>w
+      </tr>
+      <tr style="background-color: white;">
+        <td style="border: 1px solid blueviolet; padding:10px; ">25th Oct 2024</td>
+        <td style="border: 1px solid blueviolet; padding:10px; "> 8.30 AM to 10.00 AM</td>
+        <td style="border: 1px solid blueviolet; padding:10px; "> ME Seminar Hall</td>
+        <td style="border: 1px solid blueviolet; padding: 10px;">3 members per team</td>
+        <td style="border: 1px solid blueviolet; padding: 10px;">Rs. 100 per Team</td>
+        <td style="border: 1px solid blueviolet; padding: 10px;">S.Sankara Sesha Sarma - 7893050376 </td>
+
+        <!-- Merged cell with increased padding for better presentation -->
+        <td  class="nav-item"> <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 10px;" >Register</a>  
+          <br>  
+      </td>
+      </tr>
+    </table>
+  </div>
+    <br>
+    <hr style="border: 5px solid blueviolet; width: 100%; margin: auto;"/>
+    <div class="area">
+
+      <div style="background-color: white; padding-top: 2%;"><br>
+        <div class="row" style="margin: 0px;">
+           <div class="col-lg-4">
+            <img src="Electric Eclipse.jpeg" alt="theme" style="width: 300px; height: 300px; margin-left: auto; margin-right: auto; display: block; margin-bottom: 2%; border-radius: 4%; box-shadow: 0px 4px 16px rgba(138, 43, 226, 1);" data-aos="zoom-in-up" data-aos-duration="2000" />
+          </div>
+           <div class="col-lg-8" >
+             <br>
+             <h3 style="color: black;" data-aos="zoom-in-up" data-aos-duration="2000"> Electric Eclipse</h3>
+             
+             <p style="margin-right: 3%; color: black;" data-aos="zoom-in-up" data-aos-duration="2000">    Get ready to embark on an Electrifying the circuit with “ELECTRIC ECLIPSE". 
+              Level -1:(Electro Crossword)
+              •	A puzzle that combines wordplay with electrical concepts, creating a unique 
+              Challenge for electrical and electronics enthusiasts and wordgame lovers.
+              Level -2:(Anagram)
+              •	A word game to collect the letters and set to get a given word.
+              Level -3:(Circuit connection with given components)
+              •	A problem-solving activity where we provide with a set of electrical components and challenge to create a functional circuit. 
+              
+              Put your engineering knowledge and skills to collaborate with your
+              teammates to claim the title of “ELECTRIC ECLPISE!” </p>
+              
+           </div>
+        </div>
+      </div>
+      <br>
+      <table style="border: 3px solid blueviolet; border-collapse: collapse; width: 100%; max-width: 900px; margin: auto; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);" data-aos="zoom-in-up" data-aos-duration="1700">
+        <tr style="background-color: lightblue;">
+          <th style="border: 1px solid blueviolet;padding:10px;">Date</th>
+          <th style="border: 1px solid blueviolet;padding:10px;">Time</th>
+          <th style="border: 1px solid blueviolet;padding:10px;">Venue</th>
+          <th style="border: 1px solid blueviolet; padding: 10px;">Team size</th>
+          <th style="border: 1px solid blueviolet; padding: 10px;">Fee for the event</th>
+          <th style="border: 1px solid blueviolet; padding: 10px;">Contact (for queries)</th>w
+        </tr>
+        <tr style="background-color: white;">
+          <td style="border: 1px solid blueviolet; padding:10px; ">25th Oct 2024</td>
+          <td style="border: 1px solid blueviolet; padding:10px; "> 10.00 AM to 1.00 PM</td>
+          <td style="border: 1px solid blueviolet; padding:10px; "> ME Seminar Hall</td>
+          <td style="border: 1px solid blueviolet; padding: 10px;">3 Members per Team</td>
+          <td style="border: 1px solid blueviolet; padding: 10px;">Rs. 100 per Team</td>
+          <td style="border: 1px solid blueviolet; padding: 10px;">G.SHASHISRI - 7386001435  </td>
+
+          <!-- Merged cell with increased padding for better presentation -->
+          <td  class="nav-item"> <a class="nav-link" href="contact.html" style=" color:blueviolet; font-family: revert-layer; border: 3px solid rgba(138, 43, 226, 1); border-radius: 10px; padding: 10px;" >Register</a>  
+            <br>  
+        </td>
+        </tr>
+      </table>
+    </div>
+ <br>
+ <br>
+ <br>
+ <br>          
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>   
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
